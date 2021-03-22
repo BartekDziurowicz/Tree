@@ -6,6 +6,7 @@ public class Tree {
 	private int levels;
 	
 	private void setLevels() {
+		System.out.print("Enter the high of Tree: ");
 		this.levels=sc.nextInt();
 	}
 	
